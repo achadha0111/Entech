@@ -6,22 +6,31 @@
     font-family: "Hanzel";
     src: url(../fonts/hanzel.ttf);
 }
-#img-holder {
-    background: url(../img/Entech.jpg)  no-repeat ;
-    height: 750px;
+img {
+	width: 100%;
+	height: 100%;
 }
+#text-holder {
+   background-color: #3bb9ff;
+   
+}
+
 .company_name {
     font-family: 'Hanzel', 'Open Sans Condensed', sans-serif;
     color: #fff;
-    font-size: 70px;
+    font-size: 50px;
     padding-top: 30%;
-    margin-left: 5%;
+    margin-left: 2%;
+    
+    
 }
 .company_subtext {
     font-family: 'Augie', sans-serif;
     color: #fff;
-    margin-left: 5%;
+    margin-left: 2%;
+   
 }
+
 h1 {
    font-family: 'Open Sans Condensed', sans-serif; 
 }
@@ -29,10 +38,7 @@ h3 {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#text-holder {
-    
-    background-color: #33aaee;   
-}
+
 h5, .mdl-card__title-text {
     color: #fff; 
      
@@ -56,6 +62,7 @@ h5, .mdl-card__title-text {
 .contact--2 {
     margin-top: 9.1%;
 }
+
 .mdl-card {
     width: auto;
     margin-top: 2%;
@@ -112,6 +119,13 @@ body {
 .guide__header {
     height: 20px;
 }
+.message {
+	color:red;
+}
+.success {
+	color: green;
+}
+
 #boeing1 {
     background: url('../img/aviation/boeing.png') center / cover;
     height: 220px;
@@ -130,7 +144,7 @@ body {
     height: 220px; 
 }
 #unominda2 {
-    background: url('../img/unominda/unominda-2.png') center / cover;
+    background: url('../img/unominda/unominda-3.jpg') center / cover;
     height: 220px; 
 }
 #airconditioning {
@@ -146,22 +160,172 @@ body {
     height: 220px; 
 }
 #kessebohmer {
-    background: url('../img/kessenbohmer/kessenbohmer-2.png') center / cover;
+    background: url('../img/kessenbohmer/kessenbohmer-1.JPG') center / cover;
     height: 220px; 
 }
 #larsen {
-    background: url('../img/switchgear/switchgear-1.png') center / cover;
+    background: url('../img/switchgear/switchgear-1.JPG') center / cover;
     height: 220px; 
 }
 #vetus {
-    background: url('../img/switchgear/switchgear-2.png') center / cover;
+    background: url('../img/switchgear/switchgear-2.JPG') center / cover;
     height: 220px; 
 }
 #denso {
-    background: url('../img/denso.png') center / cover;
+    background: url('../img/denson.JPG') center / cover;
     height: 220px; 
 }
 #portescap {
     background: url('../img/health/health-2.png') center / cover;
     height: 220px; 
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	.company_name {
+    font-family: 'Hanzel', 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 30%;
+    margin-left: 1%;
+    
+    
+}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	.company_name {
+    font-family: 'Hanzel', 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 10%;
+    margin-left: 1%;
+    
+    
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	.company_name {
+    font-family: 'Hanzel', 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 30%;
+    margin-left: 1%;
+    
+    
+}
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	.company_name {
+    font-family: 'Hanzel', 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 30%;
+    margin-left: 1%;
+    
+    
+}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	.company_name {
+    font-family: 'Hanzel', 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 10%;
+    margin-left: 1%;
+    
+    
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	.company_name {
+    font-family: 'Hanzel', 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 30%;
+    margin-left: 1%;
+    
+    
+}
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.company_name {
+    font-family: 'Hanzel', 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 10%;
+    margin-left: 1%;
+    
+    
+}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.company_name {
+    font-family: 'Hanzel', 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 10%;
+    margin-left: 1%;
+    
+    
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.company_name {
+    font-family: 'Hanzel', 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 30%;
+    margin-left: 1%;
+    
+    
+}
 }
